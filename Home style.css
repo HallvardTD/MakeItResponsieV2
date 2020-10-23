@@ -20,7 +20,7 @@ nav {
   padding: 10px;
   margin: 0px 10px;
   text-align: left;
-  width: auto;
+  width: 0;
   height: auto;
   position: fixed;
   top: 18px;
@@ -29,27 +29,30 @@ nav {
   z-index: 1000;
 }
 
-.navbar{
-  font-family: Helvetica;
-  padding: 40px;
-  text-align: center;
-  background: rgb(255,255,255);
-  position: fixed;
-  top: 0;
-  width: 100%;
+ul {
+ margin-left: 550px;
 }
 
-.navbar a{
-  color: black;
+ul li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  line-height: 100px;
+}
+
+ul li a {
+  display: block;
   text-decoration: none;
-  font: 25px Helvetica;
-  margin: 0px 10px;
-  padding: 14px 16px; /* space between elements */
+  font-size: 20px;
+  font-family: Helvetica;
+  color: #1e1e1e;
+  padding: 0 20px;
 }
 
-li{
-    display: inline;
+ul li a:hover {
+  color: red;
 }
+
 .wrapper{
   margin-top: 10px;
   display: grid;

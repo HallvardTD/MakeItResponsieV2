@@ -4,6 +4,7 @@
 }
 body {
   background-color: #eee;
+
 }
 
 nav {
@@ -25,8 +26,7 @@ nav {
   position: fixed;
   top: 18px;
   left: 20px;
-  right: 20px;
-  z-index: 1000;
+  z-index: 1;
 }
 
 .navbar{
@@ -42,15 +42,14 @@ nav {
 .ul li {
   text-align: center;
   list-style: none;
-  display: inline;
-  line-height: 10px;
+  display: inline-block;
 }
 .ul a{
   color: black;
   text-decoration: none;
   font: 25px Helvetica;
   margin: 0px 10px;
-  padding: 14px 16px;
+  padding: 20px;
 }
 
 .wrapper{
@@ -98,6 +97,7 @@ nav {
   position: relative;
   text-align: center;
   color: white;
+  z-index: -1;
 }
 .divcenter{
   position: absolute;

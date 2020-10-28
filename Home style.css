@@ -33,10 +33,11 @@ nav {
   font-family: Helvetica;
   padding: 40px;
   text-align: center;
-  background: rgb(230,230,230);
+  background: #fff;
   position: fixed;
   top: 0;
   width: 100%;
+  border-bottom: 0.5px solid grey;
 }
 
 .ul li {
@@ -79,7 +80,7 @@ nav {
 .container1{
     align-content: center;
     font-size: 1.2em;
-    color: #00000;
+    color: black;
     height: auto;
     margin: 10px;
     display: fixed;
@@ -96,7 +97,7 @@ nav {
 .container2{
   position: relative;
   text-align: center;
-  color: white;
+  color: #fff;
   z-index: -1;
 }
 .divcenter{
@@ -104,9 +105,11 @@ nav {
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 4em;
-  color: #fff;
-  font-
+  font-size: 3em;
+  color: black;
+  background-color: #fff;
+  padding: 20px;
+  border: 0.5px solid grey;
 }
 .h2{
     text-align: center;

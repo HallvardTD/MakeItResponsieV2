@@ -109,7 +109,9 @@ nav {
   background-color: #fff;
   padding: 20px;
   border: 0.5px solid grey;
+  border-radius: 15px 15px 15px 15px;
 }
+
 .h2{
     text-align: center;
     margin: 3em;
@@ -124,6 +126,7 @@ nav {
     display: block;
     width: 100%;
   }
+}
 .img-barn{
   width: 100%;
 }

@@ -33,11 +33,11 @@ nav {
 .navbar{
   padding-top: 40px;
   padding-bottom: 40px;
-  text-align: center;
   background: #fff;
   position: fixed;
   width: 100%;
   border-bottom: 0.5px solid grey;
+  float: left;
 }
 
 .ul li {
@@ -82,7 +82,7 @@ nav {
   line-height: 24px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 300px) {
   .img-live {
     display: block;
     width: 100%;

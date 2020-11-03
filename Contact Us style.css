@@ -29,28 +29,27 @@ nav {
   z-index: 1000;
 }
 
-ul {
- margin-left: 100px;
+.navbar{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #fff;
+  position: fixed;
+  width: 100%;
+  border-bottom: 0.5px solid grey;
+  float:left;
 }
 
-ul li {
+.ul li {
+  text-align: center;
   list-style: none;
   display: inline-block;
-  float: left;
-  line-height: 100px;
 }
-
-ul li a {
-  display: block;
+.ul a{
+  color: black;
   text-decoration: none;
-  font-size: 16px;
-  font-family: arial;
-  color: #1e1e1e;
-  padding: 0 20px;
-}
-
-ul li a:hover {
-  color: red;
+  font: 25px Helvetica;
+  margin: 0px 10px;
+  padding: 20px;
 }
 
 .wrapper{
@@ -77,34 +76,14 @@ ul li a:hover {
   grid-column: 2;
   grid-row: 2;
 }
-.container1{
-    align-content: center;
-    font-size: 1.2em;
-    color: #00000;
-    height: auto;
-    margin: 10px;
-    display: fixed;
-    flex-wrap: wrap;
-    padding: 20px;
-    border-radius: 10px;
-    background: #fff;
-}
-.container1 p{
-  text-align: center;
-  margin: 40px;
-  font-size: 1.6em
-}
+
 .container2 {
   position: relative;
   text-align: center;
   color: white;
 }
 
-.container3{
-  position: relative;
-  text-align: center;
-  color: white;
-}
+
 .divcenter{
   position: absolute;
   top: 30%;
@@ -118,12 +97,6 @@ ul li a:hover {
   border-radius: 15px 15px 15px 15px;
 }
 
-
-.h2{
-    text-align: center;
-    margin: 3em;
-    font-size: 2.5em;
-}
 .img-back{
   display: none;
   opacity: 0.9;
@@ -135,7 +108,6 @@ ul li a:hover {
   }
 }
 
-  .img-barn {
+.img-barn {
     width: 100%;
-  }
-
+}
